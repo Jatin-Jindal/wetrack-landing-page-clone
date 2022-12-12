@@ -1,0 +1,42 @@
+.header {
+  align-items: center;
+  border-bottom: 1px solid #282c34;
+  padding: 0.5em;
+}
+.header .components,
+.header .components div {
+  display: flex;
+  /* padding: 0px 5px; */
+  justify-content: space-between;
+  align-items: center;
+}
+.header .components .logoMenu div,
+.header .components .logoMenu {
+  padding: 0px 5px;
+}
+.header .login {
+  padding: 0.5em 2em;
+  margin: 0 0.25em;
+  border-radius: 100px;
+  border: black solid 1px;
+  font-weight: 600;
+}
+
+.header .try {
+  padding: 0.5em 2em;
+  margin: 0 0.25em;
+  border-radius: 100px;
+  border: black solid 1px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+.header .ellipsis {
+  opacity: 0.7;
+  margin-right: 2em;
+}
+
+.header .menu-item {
+  padding: 0 0.7em !important;
+}

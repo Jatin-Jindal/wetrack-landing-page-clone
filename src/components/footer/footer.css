@@ -1,0 +1,8 @@
+.footer-items {
+  display: flex;
+  overflow: hidden;
+  translate: -5vw;
+  gap: 1em;
+  -webkit-mask-image: linear-gradient(to left, black 50%, transparent);
+  mask-image: linear-gradient(to left, black 50%, transparent);
+}

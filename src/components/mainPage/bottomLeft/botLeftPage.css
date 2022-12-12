@@ -1,0 +1,22 @@
+.bottom-left-section {
+  width: max-content;
+  height: max-content;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  padding: 0 1em;
+}
+.bottom-left-section .heading {
+  font-family: Lucida Typewriter, monospace;
+  font-size: 1em;
+  justify-self: left;
+  padding-bottom: 1em;
+}
+.bottom-left-section .logos {
+  border-top: black solid 1px;
+  padding-top: 0.5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 0.5em;
+  row-gap: 1em;
+  height: max-content;
+}
